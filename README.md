@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Poly_Collection](https://github.com/Boostorg/Poly_Collection) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Poly_Collection%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Poly_Collection%3Abincrafters).
 
 ## For Users: Use this package
 
