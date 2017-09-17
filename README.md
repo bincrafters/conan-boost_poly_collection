@@ -8,14 +8,14 @@ The packages generated with this **conanfile** can be found in [Bintray](https:/
 
 ### Basic setup
 
-    $ conan install Boost.Poly_Collection/1.64.0@bincrafters/testing
+    $ conan install Boost.Poly_Collection/1.65.1@bincrafters/testing
 
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    Boost.Poly_Collection/1.64.0@bincrafters/testing
+    Boost.Poly_Collection/1.65.1@bincrafters/testing
 
     [generators]
     txt
@@ -30,11 +30,9 @@ Note: It is recommended that you run conan install from a build directory and no
 
 The example below shows the commands used to publish to bincrafters conan repository. To publish to your own conan respository (for example, after forking this git repository), you will need to change the commands below accordingly. 
 
-## Build  
+## Build  and package 
 
-This is a header only library, so nothing needs to be built.
-
-## Package 
+The following command both runs all the steps of the conan file, and publishes the package to the local system cache.  This includes downloading dependencies from "build_requires" and "requires" , and then running the build() method. 
 
     $ conan create bincrafters/testing
 	
@@ -44,7 +42,7 @@ This is a header only library, so nothing needs to be built.
 
 ## Upload
 
-    $ conan upload Boost.Poly_Collection/1.64.0@bincrafters/testing --all -r bincrafters
+    $ conan upload Boost.Poly_Collection/1.65.1@bincrafters/testing --all -r bincrafters
 
 ### License
 [Boost](LICENSE)
