@@ -5,7 +5,7 @@ class BoostPoly_CollectionConan(ConanFile):
     version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-poly_collection"
-    description = "Please visit http://www.boost.org/doc/libs/1_65.1/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["poly_collection"]
     requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
