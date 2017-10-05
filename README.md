@@ -8,14 +8,14 @@ The packages generated with this **conanfile** can be found in [Bintray](https:/
 
 ### Basic setup
 
-    $ conan install Boost.Poly_Collection/1.64.0@bincrafters/stable
+    $ conan install Boost.Poly_Collection/1.65.1@bincrafters/stable
 
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    Boost.Poly_Collection/1.64.0@bincrafters/stable
+    Boost.Poly_Collection/1.65.1@bincrafters/stable
 
     [generators]
     txt
@@ -42,7 +42,7 @@ The following command both runs all the steps of the conan file, and publishes t
 
 ## Upload
 
-    $ conan upload Boost.Poly_Collection/1.64.0@bincrafters/stable --all -r bincrafters
+    $ conan upload Boost.Poly_Collection/1.65.1@bincrafters/stable --all -r bincrafters
 
 ### License
 [Boost](www.boost.org/LICENSE_1_0.txt)
