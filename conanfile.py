@@ -1,4 +1,5 @@
-from conans import ConanFile, tools, os
+from conans import ConanFile, tools
+import os
 
 class BoostPoly_CollectionConan(ConanFile):
     name = "Boost.Poly_Collection"
