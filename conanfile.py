@@ -8,7 +8,8 @@ class BoostPoly_CollectionConan(ConanFile):
     name = "boost_poly_collection"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_poly_collection"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["poly_collection"]
     is_header_only = True
 
