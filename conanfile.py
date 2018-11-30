@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostPoly_CollectionConan(base.BoostBaseConan):
     name = "boost_poly_collection"
@@ -16,9 +16,8 @@ class BoostPoly_CollectionConan(base.BoostBaseConan):
         "boost_config",
         "boost_core",
         "boost_iterator",
+        "boost_mp11",
         "boost_mpl",
         "boost_type_erasure",
         "boost_type_traits"
     ]
-
-
