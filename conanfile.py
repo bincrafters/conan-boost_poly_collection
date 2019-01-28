@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/stable")
 
 class BoostPoly_CollectionConan(base.BoostBaseConan):
     name = "boost_poly_collection"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_poly_collection"
     lib_short_names = ["poly_collection"]
     header_only_libs = ["poly_collection"]
